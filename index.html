@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#172033">
+<meta name="description" content="A searchable Naruto Shippuden arc guide with total episode numbers, season equivalents, and watchability notes.">
+<title>Naruto Shippuden — Arc Guide</title>
+<style>
+:root{color-scheme:light;--ink:#172033;--muted:#657187;--line:#e3e8ef;--panel:#fff;--bg:#f4f6fa;--accent:#3659a8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{background:#172033;color:#fff;padding:clamp(24px,5vw,48px) max(20px,calc((100vw - 1180px)/2))}
+header h1{font-size:clamp(1.65rem,4vw,2.4rem);line-height:1.15;margin:0 0 10px}
+header p{margin:0;color:#d7deea;max-width:760px}
+main{max-width:1180px;margin:28px auto;padding:0 18px 48px}
+.toolbar{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:14px}
+.search{flex:1 1 280px;max-width:520px;padding:12px 14px;border:1px solid #cbd4e1;border-radius:10px;font:inherit;background:white;color:var(--ink)}
+.count{color:var(--muted);font-size:.9rem}
+.table-wrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 8px 28px #1720330b}
+table{border-collapse:collapse;width:100%;text-align:left}
+thead{background:#edf1f7}th,td{padding:14px 16px;vertical-align:top;border-bottom:1px solid var(--line)}
+th{font-size:.82rem;letter-spacing:.025em;color:#46536a;white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}tbody tr:hover{background:#fafbfe}
+.episode,.season{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:650}
+.season{color:var(--accent)}
+.tag{display:inline-block;border-radius:999px;padding:4px 9px;font-size:.78rem;font-weight:700;white-space:nowrap}
+.essential{background:#e7f4ec;color:#17643a}.worth-watching{background:#eaf0ff;color:#294e9b}.skippable{background:#f1f2f5;color:#596273}
+.muted{color:var(--muted);font-size:.88rem}
+details{margin-top:5px;color:var(--muted);font-size:.86rem}
+summary{cursor:pointer;color:#53627a;user-select:none}
+details p{margin:6px 0 0;max-width:650px;color:#536077}
+footer{color:var(--muted);font-size:.83rem;margin-top:14px}
+@media(max-width:720px){
+  main{margin:18px auto;padding:0 12px 32px}
+  .table-wrap{background:transparent;border:0;box-shadow:none;overflow:visible}
+  table,tbody{display:block}thead{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  tbody{display:grid;gap:10px}
+  tbody tr{display:grid;grid-template-columns:1fr 1fr;gap:7px 12px;background:white;border:1px solid var(--line);border-radius:12px;padding:13px}
+  td{display:block;padding:0;border:0;min-width:0}
+  td::before{content:attr(data-label);display:block;color:var(--muted);font-size:.72rem;font-weight:650;margin-bottom:2px}
+  td:nth-child(3){grid-column:1/-1;grid-row:2}
+  td:nth-child(4){grid-column:1/-1;grid-row:3}
+  tbody tr:last-child td{border:0}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Naruto Shippuden — Arc Guide</h1>
+  <p>ScreenRant-sourced episode and arc entries, with season-episode equivalents based on the 21-season numbering used for this guide.</p>
+</header>
+<main>
+  <div class="toolbar">
+    <input id="search" class="search" type="search" placeholder="Search episode, season, arc, or description…" aria-label="Search the table">
+    <span id="count" class="count" aria-live="polite">27 entries</span>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Total episode(s)</th><th>Season equivalent</th><th>Arc / episode title</th><th>Watchability</th></tr></thead>
+      <tbody id="entries">
+
+      <tr data-search="28 s1e28 beasts! alive again!  ">
+        <td class="episode" data-label="Total episode(s)">28</td>
+        <td class="season" data-label="Season equivalent">S1E28</td>
+        <td data-label="Arc / episode title"><strong>Beasts! Alive Again!</strong><details><summary>Description</summary><p>No description or watchability label was provided for this entry in the source table.</p></details></td>
+        <td data-label="Watchability"><span class="muted">Not specified</span></td>
+      </tr>
+
+      <tr data-search="57–71 s3e4–s3e18 twelve guardian ninja worth watching before the akatsuki suppression mission, naruto grapples with his wind release training and learns clever applications for the shadow clones for information gathering, with special focus on asuma&#x27;s faction, the twelve guardian ninja.">
+        <td class="episode" data-label="Total episode(s)">57–71</td>
+        <td class="season" data-label="Season equivalent">S3E4–S3E18</td>
+        <td data-label="Arc / episode title"><strong>Twelve Guardian Ninja</strong><details><summary>Description</summary><p>Before the Akatsuki Suppression Mission, Naruto grapples with his wind release training and learns clever applications for the Shadow Clones for information gathering, with special focus on Asuma&#x27;s faction, the Twelve Guardian Ninja.</p></details></td>
+        <td data-label="Watchability"><span class="tag worth-watching">Worth Watching</span></td>
+      </tr>
+
+      <tr data-search="89–112 s5e1–s5e24 three-tails’ appearance essential focuses on the akatsuki&#x27;s efforts to capture isobu, the three-tailed beast sealed within yagura karatachi of the village hidden in the mist.">
+        <td class="episode" data-label="Total episode(s)">89–112</td>
+        <td class="season" data-label="Season equivalent">S5E1–S5E24</td>
+        <td data-label="Arc / episode title"><strong>Three-Tails’ Appearance</strong><details><summary>Description</summary><p>Focuses on the Akatsuki&#x27;s efforts to capture Isobu, the Three-Tailed Beast sealed within Yagura Karatachi of the Village Hidden in the Mist.</p></details></td>
+        <td data-label="Watchability"><span class="tag essential">Essential</span></td>
+      </tr>
+
+      <tr data-search="144–151 s7e1–s7e8 six-tails unleashed essential akatsuki mission to capture saiken, the six-tailed beast. additional glimpse of pain in combat, along with a crucial plotline that otherwise goes understated in the main plot.">
+        <td class="episode" data-label="Total episode(s)">144–151</td>
+        <td class="season" data-label="Season equivalent">S7E1–S7E8</td>
+        <td data-label="Arc / episode title"><strong>Six-Tails Unleashed</strong><details><summary>Description</summary><p>Akatsuki mission to capture Saiken, the Six-Tailed Beast. Additional glimpse of Pain in combat, along with a crucial plotline that otherwise goes understated in the main plot.</p></details></td>
+        <td data-label="Watchability"><span class="tag essential">Essential</span></td>
+      </tr>
+
+      <tr data-search="170–171 s8e19–s8e20 big adventure! the quest for the fourth hokage&#x27;s legacy skippable flashback to the chunin exams arc while naruto learns his summoning jutsu, with a massive red herring in the form of the fourth hokage&#x27;s legacy.">
+        <td class="episode" data-label="Total episode(s)">170–171</td>
+        <td class="season" data-label="Season equivalent">S8E19–S8E20</td>
+        <td data-label="Arc / episode title"><strong>Big Adventure! The Quest for the Fourth Hokage&#x27;s Legacy</strong><details><summary>Description</summary><p>Flashback to the Chunin Exams Arc while Naruto learns his Summoning Jutsu, with a massive red herring in the form of the Fourth Hokage&#x27;s legacy.</p></details></td>
+        <td data-label="Watchability"><span class="tag skippable">Skippable</span></td>
+      </tr>
+
+      <tr data-search="176–196 s9e1–s9e21 past arc: the locus of konoha skippable collection of flashbacks following the pain&#x27;s assault arc, with interesting glimpses at events just before naruto part 1. however, none of the events have bearing on the plot.">
+        <td class="episode" data-label="Total episode(s)">176–196</td>
+        <td class="season" data-label="Season equivalent">S9E1–S9E21</td>
+        <td data-label="Arc / episode title"><strong>Past Arc: The Locus of Konoha</strong><details><summary>Description</summary><p>Collection of flashbacks following the Pain&#x27;s Assault Arc, with interesting glimpses at events just before Naruto Part 1. However, none of the events have bearing on the plot.</p></details></td>
+        <td data-label="Watchability"><span class="tag skippable">Skippable</span></td>
+      </tr>
+
+      <tr data-search="223–242 s11e2–s11e21 paradise life on a boat skippable transit period to move naruto during the buildup to the fourth shinobi world war, to the land of lightning.">
+        <td class="episode" data-label="Total episode(s)">223–242</td>
+        <td class="season" data-label="Season equivalent">S11E2–S11E21</td>
+        <td data-label="Arc / episode title"><strong>Paradise Life on a Boat</strong><details><summary>Description</summary><p>Transit period to move Naruto during the buildup to the Fourth Shinobi World War, to the Land of Lightning.</p></details></td>
+        <td data-label="Watchability"><span class="tag skippable">Skippable</span></td>
+      </tr>
+
+      <tr data-search="257–260 s12e15–s12e18 naruto &amp; sasuke flashback mini arc skippable a recap of events between sasuke&#x27;s first meeting, their growing rift after naruto&#x27;s immense developments at the chunin exams, and the climactic sasuke retrieval arc. skippable entirely if one has already watched naruto part 1.">
+        <td class="episode" data-label="Total episode(s)">257–260</td>
+        <td class="season" data-label="Season equivalent">S12E15–S12E18</td>
+        <td data-label="Arc / episode title"><strong>Naruto &amp; Sasuke flashback mini arc</strong><details><summary>Description</summary><p>A recap of events between Sasuke&#x27;s first meeting, their growing rift after Naruto&#x27;s immense developments at the Chunin Exams, and the climactic Sasuke Retrieval Arc. Skippable entirely if one has already watched Naruto Part 1.</p></details></td>
+        <td data-label="Watchability"><span class="tag skippable">Skippable</span></td>
+      </tr>
+
+      <tr data-search="271 s12e29 road to sakura worth watching sakura develops amnesia and encounters hijinks as konoha helps her regain her memory. ties into road to ninja: naruto the movie and is a sakura-focused episode which is not common enough.">
+        <td class="episode" data-label="Total episode(s)">271</td>
+        <td class="season" data-label="Season equivalent">S12E29</td>
+        <td data-label="Arc / episode title"><strong>Road to Sakura</strong><details><summary>Description</summary><p>Sakura develops amnesia and encounters hijinks as Konoha helps her regain her memory. Ties into Road to Ninja: Naruto the Movie and is a Sakura-focused episode which is not common enough.</p></details></td>
+        <td data-label="Watchability"><span class="tag worth-watching">Worth Watching</span></td>
+      </tr>
+
+      <tr data-search="279–281 s13e4–s13e6 fourth shinobi world war side stories skippable one-shot stories depicting battles involving team 8, kurotsuchi, and deidara during the fourth shinobi world war.">
+        <td class="episode" data-label="Total episode(s)">279–281</td>
+        <td class="season" data-label="Season equivalent">S13E4–S13E6</td>
+        <td data-label="Arc / episode title"><strong>Fourth Shinobi World War side stories</strong><details><summary>Description</summary><p>One-shot stories depicting battles involving Team 8, Kurotsuchi, and Deidara during the Fourth Shinobi World War.</p></details></td>
+        <td data-label="Watchability"><span class="tag skippable">Skippable</span></td>
+      </tr>
+
+      <tr data-search="284–295 s13e9–s13e20 fourth shinobi world war side stories skippable one-shot stories during the fourth shinobi world war.">
+        <td class="episode" data-label="Total episode(s)">284–295</td>
+        <td class="season" data-label="Season equivalent">S13E9–S13E20</td>
+        <td data-label="Arc / episode title"><strong>Fourth Shinobi World War side stories</strong><details><summary>Description</summary><p>One-shot stories during the Fourth Shinobi World War.</p></details></td>
+        <td data-label="Watchability"><span class="tag skippable">Skippable</span></td>
+      </tr>
+
+      <tr data-search="303–320 s14e8–s14e25 fourth shinobi world war side stories skippable one-shot stories during the fourth shinobi world war.">
+        <td class="episode" data-label="Total episode(s)">303–320</td>
+        <td class="season" data-label="Season equivalent">S14E8–S14E25</td>
+        <td data-label="Arc / episode title"><strong>Fourth Shinobi World War side stories</strong><details><summary>Description</summary><p>One-shot stories during the Fourth Shinobi World War.</p></details></td>
+        <td data-label="Watchability"><span class="tag skippable">Skippable</span></td>
+      </tr>
+
+      <tr data-search="347–361 s15e27–s16e13 kakashi: shadow of the anbu black ops essential explores kakashi&#x27;s past as part of the anbu, an underappreciated and underdeveloped black ops force among konoha&#x27;s shinobi, with additional focus on yamato and itachi and their functions within the force.">
+        <td class="episode" data-label="Total episode(s)">347–361</td>
+        <td class="season" data-label="Season equivalent">S15E27–S16E13</td>
+        <td data-label="Arc / episode title"><strong>Kakashi: Shadow of the ANBU Black Ops</strong><details><summary>Description</summary><p>Explores Kakashi&#x27;s past as part of the Anbu, an underappreciated and underdeveloped black ops force among Konoha&#x27;s shinobi, with additional focus on Yamato and Itachi and their functions within the force.</p></details></td>
+        <td data-label="Watchability"><span class="tag essential">Essential</span></td>
+      </tr>
+
+      <tr data-search="376 s17e15 the directive to take the nine tails skippable infamously skippable filler mini-arc featuring mecha naruto, an automaton version of naruto made by orochimaru to interfere with the akatsuki&#x27;s plans to capture the nine-tailed beast.">
+        <td class="episode" data-label="Total episode(s)">376</td>
+        <td class="season" data-label="Season equivalent">S17E15</td>
+        <td data-label="Arc / episode title"><strong>The Directive to Take the Nine Tails</strong><details><summary>Description</summary><p>Infamously skippable filler mini-arc featuring Mecha Naruto, an automaton version of Naruto made by Orochimaru to interfere with the Akatsuki&#x27;s plans to capture the Nine-Tailed Beast.</p></details></td>
+        <td data-label="Watchability"><span class="tag skippable">Skippable</span></td>
+      </tr>
+
+      <tr data-search="377 s17e16 naruto vs. mecha naruto skippable same as episode #376, an entirely missable arc.">
+        <td class="episode" data-label="Total episode(s)">377</td>
+        <td class="season" data-label="Season equivalent">S17E16</td>
+        <td data-label="Arc / episode title"><strong>Naruto Vs. Mecha Naruto</strong><details><summary>Description</summary><p>Same as episode #376, an entirely missable arc.</p></details></td>
+        <td data-label="Watchability"><span class="tag skippable">Skippable</span></td>
+      </tr>
+
+      <tr data-search="388 s18e11 my first friend worth watching a touching episode that explores gaara&#x27;s friendship with naruto while giving way for the tailed beasts to join the battle.">
+        <td class="episode" data-label="Total episode(s)">388</td>
+        <td class="season" data-label="Season equivalent">S18E11</td>
+        <td data-label="Arc / episode title"><strong>My First Friend</strong><details><summary>Description</summary><p>A touching episode that explores Gaara&#x27;s friendship with Naruto while giving way for the Tailed Beasts to join the battle.</p></details></td>
+        <td data-label="Watchability"><span class="tag worth-watching">Worth Watching</span></td>
+      </tr>
+
+      <tr data-search="389 s18e12 the adored elder sister worth watching while not essential, it gives an intriguing glimpse into hinata&#x27;s position within the hyuga clan as a contested prospective heiress.">
+        <td class="episode" data-label="Total episode(s)">389</td>
+        <td class="season" data-label="Season equivalent">S18E12</td>
+        <td data-label="Arc / episode title"><strong>The Adored Elder Sister</strong><details><summary>Description</summary><p>While not essential, it gives an intriguing glimpse into Hinata&#x27;s position within the Hyuga clan as a contested prospective heiress.</p></details></td>
+        <td data-label="Watchability"><span class="tag worth-watching">Worth Watching</span></td>
+      </tr>
+
+      <tr data-search="390 s18e13 hanabi&#x27;s decision worth watching a follow-up to episode #389, explores pain&#x27;s assault through the hyuga clan and hanabi&#x27;s perspective as she sees hinata&#x27;s grit defending naruto.">
+        <td class="episode" data-label="Total episode(s)">390</td>
+        <td class="season" data-label="Season equivalent">S18E13</td>
+        <td data-label="Arc / episode title"><strong>Hanabi&#x27;s Decision</strong><details><summary>Description</summary><p>A follow-up to episode #389, explores Pain&#x27;s Assault through the Hyuga clan and Hanabi&#x27;s perspective as she sees Hinata&#x27;s grit defending Naruto.</p></details></td>
+        <td data-label="Watchability"><span class="tag worth-watching">Worth Watching</span></td>
+      </tr>
+
+      <tr data-search="394–413 s19e1–s19e20 in naruto&#x27;s footsteps: the friends&#x27; paths skippable follows the events of the second chunin exams after sasuke leaves konoha at the end of part 1. fun to follow the adventures of the konoha eleven but not necessary for the plot.">
+        <td class="episode" data-label="Total episode(s)">394–413</td>
+        <td class="season" data-label="Season equivalent">S19E1–S19E20</td>
+        <td data-label="Arc / episode title"><strong>In Naruto&#x27;s Footsteps: The Friends&#x27; Paths</strong><details><summary>Description</summary><p>Follows the events of the second Chunin Exams after Sasuke leaves Konoha at the end of Part 1. Fun to follow the adventures of the Konoha Eleven but not necessary for the plot.</p></details></td>
+        <td data-label="Watchability"><span class="tag skippable">Skippable</span></td>
+      </tr>
+
+      <tr data-search="416 s20e3 the formation of team minato worth watching offers context on kakashi and obito&#x27;s past together under minato&#x27;s leadership.">
+        <td class="episode" data-label="Total episode(s)">416</td>
+        <td class="season" data-label="Season equivalent">S20E3</td>
+        <td data-label="Arc / episode title"><strong>The Formation of Team Minato</strong><details><summary>Description</summary><p>Offers context on Kakashi and Obito&#x27;s past together under Minato&#x27;s leadership.</p></details></td>
+        <td data-label="Watchability"><span class="tag worth-watching">Worth Watching</span></td>
+      </tr>
+
+      <tr data-search="417 s20e4 you&#x27;ll be my backup worth watching offers context on kakashi and obito&#x27;s past together under minato&#x27;s leadership.">
+        <td class="episode" data-label="Total episode(s)">417</td>
+        <td class="season" data-label="Season equivalent">S20E4</td>
+        <td data-label="Arc / episode title"><strong>You&#x27;ll Be My Backup</strong><details><summary>Description</summary><p>Offers context on Kakashi and Obito&#x27;s past together under Minato&#x27;s leadership.</p></details></td>
+        <td data-label="Watchability"><span class="tag worth-watching">Worth Watching</span></td>
+      </tr>
+
+      <tr data-search="422–423 s20e9–s20e10 birth of the ten-tails&#x27; jinchūriki side stories skippable explores naruto teaching konohamaru the rasengan, connects to events of pain&#x27;s assault, and how konohamaru saved naruto&#x27;s old jacket, later seen in boruto.">
+        <td class="episode" data-label="Total episode(s)">422–423</td>
+        <td class="season" data-label="Season equivalent">S20E9–S20E10</td>
+        <td data-label="Arc / episode title"><strong>Birth of the Ten-Tails&#x27; Jinchūriki side stories</strong><details><summary>Description</summary><p>Explores Naruto teaching Konohamaru the Rasengan, connects to events of Pain&#x27;s Assault, and how Konohamaru saved Naruto&#x27;s old jacket, later seen in Boruto.</p></details></td>
+        <td data-label="Watchability"><span class="tag skippable">Skippable</span></td>
+      </tr>
+
+      <tr data-search="429–430 s20e16–s20e17 killer b rappūden worth watching one of the chilling and fascinating instances of the infinite tsukuyomi conveying excellent filler for those wishing to see more of the jinchuriki.">
+        <td class="episode" data-label="Total episode(s)">429–430</td>
+        <td class="season" data-label="Season equivalent">S20E16–S20E17</td>
+        <td data-label="Arc / episode title"><strong>Killer B Rappūden</strong><details><summary>Description</summary><p>One of the chilling and fascinating instances of the Infinite Tsukuyomi conveying excellent filler for those wishing to see more of the Jinchuriki.</p></details></td>
+        <td data-label="Watchability"><span class="tag worth-watching">Worth Watching</span></td>
+      </tr>
+
+      <tr data-search="431 s20e18 to see that smile, just one more time worth watching a rare, focused glimpse at karin with the infinite tsukuyomi as a backdrop.">
+        <td class="episode" data-label="Total episode(s)">431</td>
+        <td class="season" data-label="Season equivalent">S20E18</td>
+        <td data-label="Arc / episode title"><strong>To See That Smile, Just One More Time</strong><details><summary>Description</summary><p>A rare, focused glimpse at Karin with the Infinite Tsukuyomi as a backdrop.</p></details></td>
+        <td data-label="Watchability"><span class="tag worth-watching">Worth Watching</span></td>
+      </tr>
+
+      <tr data-search="432–450 s20e19–s20e37 jiraiya shinobi handbook: the tale of naruto the hero skippable focusing on tsunade&#x27;s infinite tsukuyomi dream, seeing jiraiya&#x27;s new novel.">
+        <td class="episode" data-label="Total episode(s)">432–450</td>
+        <td class="season" data-label="Season equivalent">S20E19–S20E37</td>
+        <td data-label="Arc / episode title"><strong>Jiraiya Shinobi Handbook: The Tale of Naruto the Hero</strong><details><summary>Description</summary><p>Focusing on Tsunade&#x27;s Infinite Tsukuyomi dream, seeing Jiraiya&#x27;s new novel.</p></details></td>
+        <td data-label="Watchability"><span class="tag skippable">Skippable</span></td>
+      </tr>
+
+      <tr data-search="464–468 s20e51–s20e55 ashura and indra arc essential exploration of naruto and sasuke&#x27;s relationship with ashura and indra otsutsuki, and by extension, hagoromo, sage of six paths as they fight kaguya, his mother.">
+        <td class="episode" data-label="Total episode(s)">464–468</td>
+        <td class="season" data-label="Season equivalent">S20E51–S20E55</td>
+        <td data-label="Arc / episode title"><strong>Ashura and Indra Arc</strong><details><summary>Description</summary><p>Exploration of Naruto and Sasuke&#x27;s relationship with Ashura and Indra Otsutsuki, and by extension, Hagoromo, Sage of Six Paths as they fight Kaguya, his mother.</p></details></td>
+        <td data-label="Watchability"><span class="tag essential">Essential</span></td>
+      </tr>
+
+      <tr data-search="480–483 s21e1–s21e4 childhood worth watching a nostalgic palate cleanser exploring characters paired up, sometimes with unexpected combinations, including naruto and hinata, sasuke and sakura, but also gaara and shikamaru, and jiraiya and kakashi.">
+        <td class="episode" data-label="Total episode(s)">480–483</td>
+        <td class="season" data-label="Season equivalent">S21E1–S21E4</td>
+        <td data-label="Arc / episode title"><strong>Childhood</strong><details><summary>Description</summary><p>A nostalgic palate cleanser exploring characters paired up, sometimes with unexpected combinations, including Naruto and Hinata, Sasuke and Sakura, but also Gaara and Shikamaru, and Jiraiya and Kakashi.</p></details></td>
+        <td data-label="Watchability"><span class="tag worth-watching">Worth Watching</span></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <footer>
+    This page lists only the entries present in the supplied source table. It does not enumerate all 500 episodes or classify episodes that the source does not list. “Not specified” means the source provided no watchability label.
+  </footer>
+</main>
+<script>
+const input=document.getElementById('search');
+const body=document.getElementById('entries');
+const count=document.getElementById('count');
+const rows=[...body.querySelectorAll('tr')];
+input.addEventListener('input',()=>{
+  const q=input.value.trim().toLocaleLowerCase();
+  let visible=0;
+  for(const row of rows){
+    const match=row.dataset.search.includes(q);
+    row.hidden=!match;
+    if(match) visible++;
+  }
+  count.textContent=`${visible} of ${rows.length} entries`;
+});
+</script>
+</body>
+</html>
